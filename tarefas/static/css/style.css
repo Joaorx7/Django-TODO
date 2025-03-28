@@ -1,9 +1,35 @@
 body{
     margin: 0 !important;
     padding: 0 !important;
+    overflow-x: hidden !important;
 }
 
-/*NAVBAR*/
+.add-div{
+    background-color:rgb(92, 71, 217) !important;
+    color: white !important;
+    padding: 0.5em !important;
+    border-radius: 5px !important;
+}
+
+#add-button{
+    text-decoration: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.barra{
+    margin-top: 1em !important;
+}
+
+.input-group-btn{
+    border: 1px solid rgba(0, 0, 0, 0.165) !important;
+    border-radius: 5px !important;
+}
+
+.list-div{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
 
 .navbar{
     background-color: #333!important;
@@ -14,19 +40,31 @@ body{
     margin: auto !important;
 }
 
+
 .navbar-brand{
     font-weight: bold !important;
-    font-size: 2em !important;
+    font-size: 1.3em !important;
 }
 .nav-link{
     color: white !important;
-    font-size: 1.5em !important;
+    font-size: 1em !important;
     letter-spacing: 2px !important;
 }
 
+.search-container {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.input-group {
+    width: 98% !important;
+}
+
+
 header {
-    width: 100%; /* Garante que cobre toda a largura da viewport */
-    background: #fff; /* Ajuste conforme necessário */
+    width: 100% !important;
+    background: #fff !important;
 }
 
 footer {
@@ -38,3 +76,25 @@ footer {
     justify-content: center !important;
     padding: 0.8em !important;
 }
+
+.item{
+    border-bottom: 1px dotted black !important;
+    height: 2em !important;
+    font-size: 2em !important;
+    margin-top: 1em !important;
+}
+
+.fa.fa-trash{
+    color: red !important;
+}
+
+
+.fa.fa-edit{
+    color: green !important;
+}
+
+.icones{
+    text-align: end !important;
+}
+
+
