@@ -57,33 +57,18 @@
                     </div>
                 </div>
             </div>
+            {% for tarefa in tarefas %}
             <div class="row item">
                 <div class="col-sm-10">
-                    <span>Ler Livro</span>
+                    <span>{{tarefa.titulo}}</span>
                 </div>
                 <div class="col-sm-2 icones">
                     <a href=""><span><i class="fa fa-edit"></i></span></a>
                     <a href=""><span><i class="fa fa-trash"></i></span></a>
                 </div>
             </div>
-            <div class="row item">
-                <div class="col-sm-10">
-                    <span>Observar o Espaço</span>
-                </div>
-                <div class="col-sm-2 icones">
-                    <a href=""><span><i class="fa fa-edit"></i></span></a>
-                    <a href=""><span><i class="fa fa-trash"></i></span></a>
-                </div>
-            </div>
-            <div class="row item">
-                <div class="col-sm-10">
-                    <span>Escutar Musica</span>
-                </div>
-                <div class="col-sm-2 icones">
-                    <a href=""><span><i class="fa fa-edit"></i></span></a>
-                    <a href=""><span><i class="fa fa-trash"></i></span></a>
-                </div>
-            </div>
+            {% endfor %}
+            
         </div>
     </div>
     <footer class="fixed-bottom">
