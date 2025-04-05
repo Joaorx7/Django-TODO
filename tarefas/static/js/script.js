@@ -15,3 +15,8 @@ document.querySelectorAll(".delete-btn").forEach(
     }
 
 )
+
+//Função Para Pesquisar
+    document.getElementById("search-bt").addEventListener("click", function(){
+        document.getElementById("search-form").onsubmit();
+    });
